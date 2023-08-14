@@ -1,0 +1,4 @@
+ID: 1692020142
+Count: 3
+Timestamp: 8/14/2023 13:35:42
+Rows: { Name: Argentina, Value: 1500, Color: FF0000 },{ Name: Brazil, Value: 4005, Color: 00FF00 },{ Name: Colombia, Value: 345, Color: 0000FF }
