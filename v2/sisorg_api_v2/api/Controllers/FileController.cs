@@ -37,7 +37,7 @@ namespace api.Controllers
                     m.ID,
                     m.Count,
                     m.Timestamp,
-                    Countries = m.Rows.Select(c => new
+                    Rows = m.Rows.Select(c => new
                     {
                         Name = c.Name,
                         Value = c.Value,
@@ -108,7 +108,7 @@ namespace api.Controllers
                         ID = marker.ID,
                         Count = marker.Count,
                         Timestamp = marker.Timestamp,
-                        Countries = marker.Rows.Select(c => new
+                        Rows = marker.Rows.Select(c => new
                         {
                             Name = c.Name,
                             Value = c.Value,

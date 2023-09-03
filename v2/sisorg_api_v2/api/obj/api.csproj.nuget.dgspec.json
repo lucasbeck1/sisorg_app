@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Downloads\\projects\\sisorg_api_4\\api\\api.csproj": {}
+    "C:\\Users\\lucas\\Downloads\\projects\\sisorg_app\\v2\\sisorg_api_v2\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Downloads\\projects\\sisorg_api_4\\api\\api.csproj": {
+    "C:\\Users\\lucas\\Downloads\\projects\\sisorg_app\\v2\\sisorg_api_v2\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_api_4\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_app\\v2\\sisorg_api_v2\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_api_4\\api\\api.csproj",
+        "projectPath": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_app\\v2\\sisorg_api_v2\\api\\api.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_api_4\\api\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_app\\v2\\sisorg_api_v2\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

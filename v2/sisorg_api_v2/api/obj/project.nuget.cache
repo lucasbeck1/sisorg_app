@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w+qIuZiZwxILeJOnvf6q854mi5VzcnkQpW4iDqmD8KoXIq9kjgC7htK9qfzXIhkdW/dCq+BgL9ai0csg4V6x6Q==",
+  "dgSpecHash": "jE4Ij0ER4NM3+cYbSF+PJ922A+oCORiS2snyWlYKytZzACOTYDO5AeagGsd/zhkhKniTNK74BMAJJxVPD20Dxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_api_4\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Downloads\\projects\\sisorg_app\\v2\\sisorg_api_v2\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
