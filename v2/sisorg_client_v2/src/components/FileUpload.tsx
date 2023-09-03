@@ -22,12 +22,25 @@ function FileUpload() {
     formData.append('file', selectedFile);
 
     try {
-      const response = await axios.post('http://localhost:5240/api/File/upload', formData);
-      setUploadStatus('File uploaded successfully');
-      console.log('Server response:', response.data);
-      setCountries(response.data.rows);
+      setUploadStatus('Loading. please wait ...');
+      const response = await axios.post('http://localhost:5202/api/File/upload', formData);
+      
+      if(response.statusText === "OK"){
+        setCountries(response.data.rows);
+        setUploadStatus('File uploaded successfully');
+      }else{
+        setUploadStatus('Error uploading file');
+      }
+
+      console.log('Server response:', response);
     } catch (error) {
-      setUploadStatus('Error uploading file');
+
+      if(typeof(error.response.data) === "string"){
+        setUploadStatus(error.response.data);
+      }else{
+        setUploadStatus('Error uploading file');
+      }
+
       console.error('Error:', error);
     }
   };
