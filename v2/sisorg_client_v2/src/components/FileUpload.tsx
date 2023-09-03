@@ -50,28 +50,29 @@ function FileUpload() {
       <input type="file" onChange={handleFileChange} />
       <button onClick={handleUpload}>Upload</button>
       <p>{uploadStatus}</p>
-
+      <section className='table'>
       {
-        (countriesInfo) &&
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Value</th>
-              <th>Color</th>
-            </tr>
-          </thead>
-          <tbody>
-          {countries.map((country, index) => 
-              <tr key={index}>
-                <td>{country.name}</td>
-                <td>{country.value}</td>
-                <td>{country.color}</td>
-             </tr>
-          )}
-          </tbody>
+      (countriesInfo) &&
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+            <th>Color</th>
+          </tr>
+        </thead>
+        <tbody>
+        {countries.map((country, index) => 
+            <tr key={index}>
+              <td>{country.name}</td>
+              <td>{country.value}</td>
+              <td>{country.color}</td>
+          </tr>
+        )}
+        </tbody>
       </table>
       }
+      </section>
     </div>
   );
 }
